@@ -8,7 +8,6 @@
     margin: 20px;
     flex-direction: column;
     box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05)!important;
-    
 }
 
 .fields:hover{
@@ -17,30 +16,37 @@
 
 .fields img{
     background-size: cover;
-   
     max-width:50%;
-
     height:auto;
-    margin-left: 15px;
-    margin-top: -15px;
-    margin-bottom: 20px;
+    margin: 10px 15px;
     border-radius: 5px;
 }
 
-.fields h4{
-    padding-left: 15px;
-    padding-bottom: 5px ;
+.fields h6{
+    padding: 15px;
     flex-wrap: wrap;
-    margin: 0;
-    font-size: 19px;
+    margin: 2px;
+    font-size: 16px;
     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-.fields span{
-    font-size: 18px;
-    padding: 10px;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 0.5;
+.fields .bottom-span{
+    font-size: 16px;
+    display: inline-flex;
+    justify-content: flex-start;
+    border-top: 1px solid gray;
+    margin: 15px;
 }
 
+.fields .bottom-span span{
+    padding: 10px 5px;
+    margin: 5px;  
+}
+
+.fields  a{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding:0 5px;
+    margin: 5px;
+    text-decoration:none;
+}
