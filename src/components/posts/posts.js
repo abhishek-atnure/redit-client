@@ -1,7 +1,6 @@
 import React from 'react';
 import './posts.css';
 import Loading from '../loading/Loading';
-import TextTruncate from 'react-text-truncate';
 import * as timeago from 'timeago.js';
 
 function Posts({ isLoading, items }) {
@@ -18,16 +17,14 @@ function Posts({ isLoading, items }) {
                 items.children.length > 0 && items.children.map(post =>
                     <div className="fields">
                         <h6>{post.data.title}{post.data.selftext ? <a href={post.data.url} target="_blank">View Post</a> : null}</h6>
-
                         {post.data.post_hint === 'image' ?
                             <img src={post.data.url_overridden_by_dest} alt={post.data.description} /> : null}
+
                         <div className="bottom-span">
                             <span>{createdOn(post.data.created_utc)}</span>
                             <span>by {post.data.author}</span>
-
                         </div>
                     </div>
-
                 )}
         </div>
     )
