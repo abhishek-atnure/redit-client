@@ -1,0 +1,48 @@
+.nav{
+    display:inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),
+                0 4px 6px -2px rgba(0,0,0,0.05)!important;
+}
+
+.nav:hover{
+   box-shadow:  0 20px 25px -5px rgba(0,0,0,0.1),
+                0 10px 10px -5px rgba(0,0,0,0.04)!important;
+}
+
+.left{
+    display: inline-flex;
+}
+
+.left img{
+    height: 40px;
+    width: 40px;
+    padding: 5px 5px;
+
+}
+
+.left p{
+    margin-top:11px;
+    font-weight: bold;
+}
+
+.logoSpan{
+    color:#6955ED;
+}
+
+.right{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+   
+}
+
+.right span{
+    margin: 5px 5px 10px 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+

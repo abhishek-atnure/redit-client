@@ -1,0 +1,46 @@
+.blocks{
+    display: flex;
+    flex-direction: column;
+}
+
+.fields{
+    display:inline-flex;
+    margin: 20px;
+    flex-direction: column;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05)!important;
+    
+}
+
+.fields:hover{
+    box-shadow:  0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04)!important;
+ }
+
+.fields img{
+    background-size: cover;
+   
+    max-width:50%;
+
+    height:auto;
+    margin-left: 15px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.fields h4{
+    padding-left: 15px;
+    padding-bottom: 5px ;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 19px;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.fields span{
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5;
+}
+
