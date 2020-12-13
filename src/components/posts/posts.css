@@ -1,9 +1,11 @@
 .blocks{
     display: flex;
     flex-direction: column;
+    
 }
 
 .fields{
+
     display:inline-flex;
     margin: 20px;
     flex-direction: column;
