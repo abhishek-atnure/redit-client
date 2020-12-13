@@ -20,7 +20,7 @@
     0 15px 89px rgba(0, 0, 0,0.13);
 } 
 
-.cards::after{
+.cards button::after{
     content: '';
     position: absolute;
     left: 0;
@@ -30,13 +30,13 @@
     background: #ea0e4b;
 
 }
- .cards::after{
+ .cards button::after{
     transform: scale(0,1);
     transition: transform 0.3s ease;
  
 } 
 
-.cards:hover::after{
+.cards button:hover::after{
     transform: scale(1,1);  
 } 
 

@@ -7,6 +7,7 @@ const Subreddits = ({ subs, onChange }) => {
     const handleClick = (event) => {
         onChange(event.target.value)
     }
+
     //jsx to render
     return (
         <div className="subreddits">

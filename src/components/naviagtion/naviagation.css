@@ -42,5 +42,8 @@
     cursor: pointer;
 }
 
+.right span:hover{
+    color:#6955ED
+}
 
 

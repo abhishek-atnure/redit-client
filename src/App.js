@@ -15,7 +15,10 @@ function App() {
   const handleQuery = querys => setQuerys(prevQuery => querys)
 
   //sets querys value to /best on home click
-  const handleHome = () => setQuerys('/best');
+  const handleHome = () => {
+    setIsLoading(true);
+    setQuerys('/best');
+  }
 
   //useEffect which fetches main posts
   useEffect(() => {
