@@ -12,7 +12,10 @@ function App() {
   const [subs, setSubs] = useState([]);
 
   //handles querys change on click
-  const handleQuery = querys => setQuerys(prevQuery => querys)
+  const handleQuery = querys => {
+    setIsLoading(true)
+    setQuerys(prevQuery => querys)
+  }
 
   //sets querys value to /best on home click
   const handleHome = () => {

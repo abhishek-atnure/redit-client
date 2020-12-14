@@ -16,11 +16,11 @@
 
 .fields img{
     background-size: cover;
-    width:60%;
+    width:50%;
     height:auto;
     padding: 10px;
-    border-radius: 5px;
-    
+    border-radius: 18px;
+ 
 }
 
 @media only screen and (max-width: 560px) {
@@ -51,6 +51,7 @@
 }
 
 .fields  a{
+    cursor: alias;
     border: 1px solid gray;
     border-radius: 5px;
     padding:0 5px;
